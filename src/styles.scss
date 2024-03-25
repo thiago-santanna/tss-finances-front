@@ -2,6 +2,7 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import 'primeflex/primeflex.scss';
+@import "primeicons/primeicons.css";
 
 :root {
   --primary-color: #5429CC;
@@ -13,26 +14,45 @@
   --background-color: #F0F2F5;
 }
 
+.primary-color {
+  color: var(--primary-color);
+}
+.background-color-primary {
+  background: var(--primary-color);
+}
+.border-color-primary {
+  border-color: var(--primary-color);
+}
+
+.success-color {
+  color: var(--success-color);
+}
+.secondary-color {
+  color: var(--secondary-color);
+}
+.danger-color {
+  color: var(--danger-color);
+}
+.title-color {
+  color: var(--title-color);
+}
+.text-color {
+  color: var(--text-color);
+}
+.background-color {
+  background-color: var(--background-color);
+}
+.link-disabled {
+  color: var(--danger-color);
+  text-decoration: none;
+}
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
   font-family: 'Roboto', sans-serif;
 }
 
 body {
   background: var(--background-color);
   color: var(--text-color);
-}
-
-.container {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-}
-
-.content-login {
-  min-width: 480px;
-  margin: 0 auto;
-  padding: 2rem 2rem;
 }
