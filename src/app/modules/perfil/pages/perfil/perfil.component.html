@@ -1,1 +1,90 @@
-<p>perfil works!</p>
+<main>
+  <header
+    class="flex justify-content-between align-items-center h-3rem p-2 background-color-primary mb-1"
+  >
+    <i class="pi pi-arrow-left"></i>
+    <span class="font-bold text-lg">Perfil</span>
+    <div></div>
+  </header>
+  <div class="grid container-grid">
+    <div class="col-6" style="align-self: center">
+      <div class="flex flex-column gap-3 align-items-center">
+        <img
+          class="border-circle"
+          src="/assets/placeholder-user.png"
+          width="100"
+          alt="USER"
+        />
+        <span class="mb-3 font-bold">Nome do usuario da silva Sauro</span>
+        <p-button
+          label="SALVAR DADOS"
+          styleClass="background-color-success mt-3 border-none"
+        ></p-button>
+      </div>
+    </div>
+    <div class="col-6" style="align-self: center">
+      <div class="m-6">
+        <Span class="font-bold text-lg">Dados do Perfil</Span>
+        <p-divider></p-divider>
+        <div>
+          <div class="formgrid grid">
+            <div class="field col">
+              <label for="firstname2">Nome</label>
+              <input
+                id="firstname2"
+                type="text"
+                class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+              />
+            </div>
+            <div class="field col">
+              <label for="lastname2">Whatsapp</label>
+              <input
+                id="lastname2"
+                type="tel"
+                class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+              />
+            </div>
+          </div>
+          <div class="formgrid grid">
+            <div class="field col">
+              <label for="firstname2">Senha</label>
+              <input
+                id="firstname2"
+                type="password"
+                class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+              />
+            </div>
+            <div class="field col">
+              <label for="lastname2">E-mail</label>
+              <input
+                id="lastname2"
+                type="email"
+                class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+              />
+            </div>
+          </div>
+          <p-divider></p-divider>
+          <span class="font-bold text-lg">Metas financeiras</span>
+          <div class="formgrid grid mt-3">
+            <div class="field col">
+              <label for="firstname2">Quanto eu quero gastar por mês?</label>
+              <input
+                id="firstname2"
+                type="text"
+                class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+              />
+            </div>
+            <div class="field col">
+              <label for="lastname2">Percentual de aviso de gastos (%)</label>
+              <input
+                id="lastname2"
+                type="text"
+                class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

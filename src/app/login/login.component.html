@@ -22,11 +22,13 @@
       <p-button
         label="Entrar"
         styleClass="w-full background-color-primary"
+        (onClick)="goToDashboard()"
       ></p-button>
       <p-button
         label="Cadastrar"
         [outlined]="true"
         styleClass="w-full border-color-primary text-color"
+        (onClick)="goToPerfil()"
       ></p-button>
       <div class="mt-3 flex justify-content-center danger-color">
         <a href="" class="link-disabled">
