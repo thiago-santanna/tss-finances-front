@@ -1,3 +1,23 @@
+main {
+  position: relative;
+}
+
+header {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 12rem 0 5rem;
+}
+
 .bordar-arredondada {
   border-radius: 50%;
+}
+
+.wraper-card-financeiro {
+  position: absolute;
+  top: 75%;
+}
+
+.wraper-table-financeiro {
+  position: absolute;
+  top: 140%;
 }
