@@ -5,9 +5,10 @@ import { DashboardModuleRoutingModule } from './dashboard-module-routing.module'
 
 import { ImageModule } from 'primeng/image';
 import { ButtonModule } from 'primeng/button';
+import { CardFinanceiroComponent } from './components/card-financeiro/card-financeiro.component';
 
 @NgModule({
-  declarations: [DashboardComponent],
+  declarations: [DashboardComponent, CardFinanceiroComponent],
   imports: [
     CommonModule,
     DashboardModuleRoutingModule,
